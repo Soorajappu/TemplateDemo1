@@ -18,11 +18,11 @@ const Navbar = () => {
                     <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
                         <Link aria-current="page"
                             className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-                            to={"/TemplateDemo1/"}>Home</Link>
+                            to={"/"}>Home</Link>
                         <Link className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-                            to={"/TemplateDemo1/About"}>About</Link>
+                            to={"/About"}>About</Link>
                         <Link className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-                            to={"/TemplateDemo1/Contact"}>Contact</Link>
+                            to={"/Contact"}>Contact</Link>
                     </div>
                     <div className="flex items-center justify-end gap-3">
                         <Link className="hidden items-center justify-center rounded-xl bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 transition-all duration-150 hover:bg-gray-50 sm:inline-flex"

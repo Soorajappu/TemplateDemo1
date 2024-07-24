@@ -16,17 +16,15 @@ function App() {
 
   return (
     <>
-      <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Signup" element={<Signup />} />
-          <Route path="/ForgotPassword" element={<ForgotPassword />} />
-          <Route path="/EmailOTP" element={<EmailOTP />} />
-        </Routes>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/EmailOTP" element={<EmailOTP />} />
+      </Routes>
     </>
   )
 }
